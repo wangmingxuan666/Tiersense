@@ -6,6 +6,7 @@
 
 <p align="center">
 <a href="https://tierflow.cn/tiersense"><img src="https://img.shields.io/badge/API-TierSense-6856E8" alt="TierSense API"></a>
+  <a href="https://github.com/wangmingxuan666/Tiersense-memory-decide/blob/main/paper/Memory_Control.pdf"><img src="https://img.shields.io/badge/Paper-Memory_Control-b31b1b" alt="Memory Control PDF"></a>
 <a href="AUTHORS_STATEMENT.en.md"><img src="https://img.shields.io/badge/Authors-Statement-0969da" alt="Authors' statement"></a>
 </p>
 
@@ -57,13 +58,19 @@ Get an API key from the [TierSense platform](https://tierflow.cn/tiersense). The
 
 [Minimal request examples for all three APIs](docs/quickstart.en.md). Request and response contracts differ; fields are not interchangeable.
 
+## Paper
+
+[Memory Control Signals Emerge Before Action in Long Horizon Agents](https://github.com/wangmingxuan666/Tiersense-memory-decide/blob/main/paper/Memory_Control.pdf)
+
+Read or download the full author-provided PDF (35 pages). The research system described in the paper and the hosted decision API have different scopes; see the usage guide for the API contract.
+
 ## Documentation
 
 - [Quick start](docs/quickstart.en.md): minimal requests for the three APIs.
 - [Agent integration](docs/agent-integration.en.md): invocation points, application responsibilities, and limitations.
 - [Authors' statements](AUTHORS_STATEMENT.en.md): centralized statements and research timeline material.
 
-This is a documentation and navigation hub, not a merged inference service. It does not include model weights, production configuration, or a new unified SDK. The original repositories and their histories remain independent. The Memory Control paper is not uploaded in this update.
+This is a documentation and navigation hub, not a merged inference service. It does not include model weights, production configuration, or a new unified SDK. The original repositories and their histories remain independent. Read the Memory Control paper using the link above.
 
 ## Join the community
 

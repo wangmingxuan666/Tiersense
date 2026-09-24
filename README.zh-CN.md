@@ -6,6 +6,7 @@
 
 <p align="center">
 <a href="https://tierflow.cn/tiersense"><img src="https://img.shields.io/badge/API-TierSense-6856E8" alt="TierSense API"></a>
+  <a href="https://github.com/wangmingxuan666/Tiersense-memory-decide/blob/main/paper/Memory_Control.pdf"><img src="https://img.shields.io/badge/Paper-Memory_Control-b31b1b" alt="Memory Control PDF"></a>
 <a href="AUTHORS_STATEMENT.md"><img src="https://img.shields.io/badge/Authors-Statement-0969da" alt="Authors' statement"></a>
 </p>
 
@@ -20,7 +21,7 @@
 >
 > 我们郑重声明：三个方法及两篇文章在**北京时间 2026 年 9 月 14 日之前已完稿，实际时间完稿时间会更早（有微信截图证明，见文末）**，Jev 出现的时间为 **2026 年 9 月 15 日**。这是我们投入约半年、才终于对外发布的工作，绝不是在 Jev 出现后几天内用 AI 快速拼凑出来的文章。且两篇文章是研究过程中产生的分支，均是经过检验后产生的完整研究，经过反复打磨在近期挂出来的。如果想了解具体时间线，欢迎与该账号本人联系。
 >
-> **本方法与 Jev 采用完全不同的技术路线，具有自己的机理发现。我们认为这是独立技术路线上的超越，而非对 Jev 的复刻或几天内的追随。**这里表达的是作者对原创性与技术路线的判断，不是宣称已经公布了覆盖所有任务的性能优越性证明。
+> <strong>本方法与 Jev 采用完全不同的技术路线，具有自己的机理发现。我们认为这是独立技术路线上的超越，而非对 Jev 的复刻或几天内的追随。</strong>这里表达的是作者对原创性与技术路线的判断，不是宣称已经公布了覆盖所有任务的性能优越性证明。
 >
 > 我们反对以“auto research”之名快速拼凑、缺乏实质研究的内容，也不赞同仅凭发布时间，就给认真投入的工作贴上这样的标签。我们始终希望为社区带来真正的贡献，也认可 AI 辅助研究能够产出高质量成果；但我们不希望这项投入心血完成的方法与文章，在未经认真了解的情况下，被简单归为“自动水文”。
 >
@@ -57,13 +58,19 @@
 
 [查看三个接口的最小调用示例](docs/quickstart.md)。参数和返回结构不同，不能把某一个接口的字段直接用于另一个。
 
+## 论文
+
+[Memory Control Signals Emerge Before Action in Long Horizon Agents](https://github.com/wangmingxuan666/Tiersense-memory-decide/blob/main/paper/Memory_Control.pdf)
+
+阅读或下载作者提供的完整 PDF（35 页）。论文研究系统与本仓库的托管判断 API 并非同一公开范围；API 的功能边界以使用指南为准。
+
 ## 文档导航
 
 - [快速调用](docs/quickstart.md)：三个接口的最小请求。
 - [Agent 组合接入](docs/agent-integration.md)：调用位置、应用职责与使用边界。
 - [作者声明](AUTHORS_STATEMENT.md)：集中维护的原声明与研究时间线材料。
 
-这里是文档与项目导航总入口，不是合并后的推理服务，也不包含模型权重、生产配置或新的统一 SDK。三个原仓库及其历史保持独立；Memory Control 文章本次未上传。
+这里是文档与项目导航总入口，不是合并后的推理服务，也不包含模型权重、生产配置或新的统一 SDK。三个原仓库及其历史保持独立；Memory Control 论文可通过上方链接阅读。
 
 ## 欢迎进群交流
 
