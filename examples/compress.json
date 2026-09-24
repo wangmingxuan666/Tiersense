@@ -1,0 +1,14 @@
+{
+  "model": "TierSense",
+  "task": "Fix CSV export encoding and add tests.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Fix CSV export encoding and add tests."
+    },
+    {
+      "role": "assistant",
+      "content": "Located an encoding mismatch; preparing a fix."
+    }
+  ]
+}

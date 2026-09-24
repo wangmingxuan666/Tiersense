@@ -31,7 +31,7 @@ curl 'https://tierflow.cn/tiersense/v1/compress' \
   }'
 ```
 
-Read should_compress, confidence, and message_indices in steps. Configure options as documented in the child project if you need span execution policies; this minimal example does not enable one. Your application generates summaries and replaces history.
+Read should_compress, confidence, and message_indices in steps. Configure options as documented in the module if you need span execution policies; this minimal example does not enable one. Your application generates summaries and replaces history.
 
 ## 3. TierSense-Memory-Decide
 
@@ -51,4 +51,4 @@ curl 'https://tierflow.cn/tiersense/v1/memory/decide' \
 
 Read compression.predicted, recall.predicted, and their respective confidence values. It returns no per-step indices and performs no summarization or retrieval. Skip an operation if eligible history or stored memory does not exist.
 
-See the child-project guides for complete fields and agent examples.
+See the module guides for complete fields and agent examples.

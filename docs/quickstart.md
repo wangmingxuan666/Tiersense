@@ -31,7 +31,7 @@ curl 'https://tierflow.cn/tiersense/v1/compress' \
   }'
 ```
 
-读取 steps 中的 should_compress、confidence 与 message_indices。需要连续片段执行策略时，按子项目文档配置 options；本最小示例不启用该策略。摘要生成与历史替换由应用执行。
+读取 steps 中的 should_compress、confidence 与 message_indices。需要连续片段执行策略时，按模块文档配置 options；本最小示例不启用该策略。摘要生成与历史替换由应用执行。
 
 ## 3. TierSense-Memory-Decide
 
@@ -51,4 +51,4 @@ curl 'https://tierflow.cn/tiersense/v1/memory/decide' \
 
 读取 compression.predicted、recall.predicted 及各自 confidence。它不返回逐步索引，不执行摘要或检索；没有旧历史／可召回记忆时，不执行对应动作。
 
-完整字段和 Agent 示例见各子项目使用指南。
+完整字段和 Agent 示例见 [Score](score/usage.md)、[Compress](compress/usage.md) 和 [Memory-Decide](memory-decide/usage.md) 的使用指南。

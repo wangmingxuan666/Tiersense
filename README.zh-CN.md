@@ -6,13 +6,13 @@
 
 <p align="center">
 <a href="https://tierflow.cn/tiersense"><img src="https://img.shields.io/badge/API-TierSense-6856E8" alt="TierSense API"></a>
-  <a href="https://github.com/wangmingxuan666/Tiersense-memory-decide/blob/main/paper/Memory_Control.pdf"><img src="https://img.shields.io/badge/Paper-Memory_Control-b31b1b" alt="Memory Control PDF"></a>
+  <a href="papers/Memory_Control.pdf"><img src="https://img.shields.io/badge/Paper-Memory_Control-b31b1b" alt="Memory Control PDF"></a>
 <a href="AUTHORS_STATEMENT.md"><img src="https://img.shields.io/badge/Authors-Statement-0969da" alt="Authors' statement"></a>
 </p>
 
 <p align="center"><a href="README.md">English</a> · <a href="README.zh-CN.md">简体中文</a></p>
 
-> **TierSense 系列总入口**：三个模块可以独立使用，也可按应用需要组合。这里集中提供项目导航、接入选择和[作者声明](AUTHORS_STATEMENT.md)。
+> **TierSense 唯一主仓库**：三个模块可以独立使用，也可按应用需要组合。这里集中提供项目导航、接入选择和[作者声明](AUTHORS_STATEMENT.md)。
 
 > [!IMPORTANT]
 > **作者声明｜独立技术路线与研究时间线**
@@ -33,11 +33,11 @@
 
 | 模块 | 解决的问题 | 输出 | 使用指南 |
 | --- | --- | --- | --- |
-| [TierSense-Score](https://github.com/wangmingxuan666/Tiersense-score) | 当前任务有多难？ | 五路特征分数＋总分 | [难度打分](https://github.com/wangmingxuan666/Tiersense-score/blob/main/docs/usage.md) |
-| [TierSense-Compress](https://github.com/wangmingxuan666/Tiersense-Compress) | 哪些历史步骤适合压缩？ | 逐步建议＋历史片段定位 | [历史压缩](https://github.com/wangmingxuan666/Tiersense-Compress/blob/main/docs/usage.md) |
-| [TierSense-Memory-Decide](https://github.com/wangmingxuan666/Tiersense-memory-decide) | 现在是否需要压缩或召回？ | 两项判断＋各自置信度 | [记忆判断](https://github.com/wangmingxuan666/Tiersense-memory-decide/blob/main/docs/usage.md) |
+| [TierSense-Score](docs/score/README.zh-CN.md) | 当前任务有多难？ | 五路特征分数＋总分 | [难度打分](docs/score/usage.md) |
+| [TierSense-Compress](docs/compress/README.zh-CN.md) | 哪些历史步骤适合压缩？ | 逐步建议＋历史片段定位 | [历史压缩](docs/compress/usage.md) |
+| [TierSense-Memory-Decide](docs/memory-decide/README.zh-CN.md) | 现在是否需要压缩或召回？ | 两项判断＋各自置信度 | [记忆判断](docs/memory-decide/usage.md) |
 
-三个模块提供决策信号，不代替应用执行模型切换、生成摘要或检索记忆。完整请求格式与最新功能说明以各子项目文档为准。
+三个模块提供决策信号，不代替应用执行模型切换、生成摘要或检索记忆。完整请求格式与最新功能说明以各模块文档为准。
 
 ## 怎么选择
 
@@ -60,7 +60,7 @@
 
 ## 论文
 
-[Memory Control Signals Emerge Before Action in Long Horizon Agents](https://github.com/wangmingxuan666/Tiersense-memory-decide/blob/main/paper/Memory_Control.pdf)
+[Memory Control Signals Emerge Before Action in Long Horizon Agents](papers/Memory_Control.pdf)
 
 阅读或下载作者提供的完整 PDF（35 页）。论文研究系统与本仓库的托管判断 API 并非同一公开范围；API 的功能边界以使用指南为准。
 
@@ -70,7 +70,11 @@
 - [Agent 组合接入](docs/agent-integration.md)：调用位置、应用职责与使用边界。
 - [作者声明](AUTHORS_STATEMENT.md)：集中维护的原声明与研究时间线材料。
 
-这里是文档与项目导航总入口，不是合并后的推理服务，也不包含模型权重、生产配置或新的统一 SDK。三个原仓库及其历史保持独立；Memory Control 论文可通过上方链接阅读。
+本仓库统一维护三个模块的文档、接入示例和论文入口。后续更新、Issues 与 Star 请集中在这里；旧仓库仅保留迁移提示、历史文件与提交记录。这里不包含模型权重、生产配置或自托管推理服务源码。
+
+- [调用示例](examples/README.md)：一个命令选择 Score、Compress 或 Memory-Decide。
+- [反馈问题](https://github.com/wangmingxuan666/Tiersense/issues)：统一 Issues 入口。
+- [迁移说明](MIGRATION.md)：旧链接与新目录的对应关系。
 
 ## 欢迎进群交流
 

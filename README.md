@@ -6,13 +6,13 @@
 
 <p align="center">
 <a href="https://tierflow.cn/tiersense"><img src="https://img.shields.io/badge/API-TierSense-6856E8" alt="TierSense API"></a>
-  <a href="https://github.com/wangmingxuan666/Tiersense-memory-decide/blob/main/paper/Memory_Control.pdf"><img src="https://img.shields.io/badge/Paper-Memory_Control-b31b1b" alt="Memory Control PDF"></a>
+  <a href="papers/Memory_Control.pdf"><img src="https://img.shields.io/badge/Paper-Memory_Control-b31b1b" alt="Memory Control PDF"></a>
 <a href="AUTHORS_STATEMENT.en.md"><img src="https://img.shields.io/badge/Authors-Statement-0969da" alt="Authors' statement"></a>
 </p>
 
 <p align="center"><a href="README.md">English</a> · <a href="README.zh-CN.md">简体中文</a></p>
 
-> **The TierSense project hub**: use the three modules independently or combine them for your application. Find project navigation, integration guidance, and the centralized [authors' statements](AUTHORS_STATEMENT.en.md) here.
+> **The main TierSense repository**: use the three modules independently or combine them for your application. Find project navigation, integration guidance, and the centralized [authors' statements](AUTHORS_STATEMENT.en.md) here.
 
 > [!IMPORTANT]
 > **Authors' statement | Independent technical approach and research timeline**
@@ -33,11 +33,11 @@
 
 | Module | Question | Output | Guide |
 | --- | --- | --- | --- |
-| [TierSense-Score](https://github.com/wangmingxuan666/Tiersense-score) | How difficult is the current task? | Five feature scores and an overall score | [Difficulty scoring](https://github.com/wangmingxuan666/Tiersense-score/blob/main/docs/usage.en.md) |
-| [TierSense-Compress](https://github.com/wangmingxuan666/Tiersense-Compress) | Which historical steps are ready for compression? | Per-step recommendations and span selection | [History compression](https://github.com/wangmingxuan666/Tiersense-Compress/blob/main/docs/usage.en.md) |
-| [TierSense-Memory-Decide](https://github.com/wangmingxuan666/Tiersense-memory-decide) | Should history be compressed or recalled now? | Two decisions and their confidence values | [Memory decisions](https://github.com/wangmingxuan666/Tiersense-memory-decide/blob/main/docs/usage.en.md) |
+| [TierSense-Score](docs/score/README.md) | How difficult is the current task? | Five feature scores and an overall score | [Difficulty scoring](docs/score/usage.en.md) |
+| [TierSense-Compress](docs/compress/README.md) | Which historical steps are ready for compression? | Per-step recommendations and span selection | [History compression](docs/compress/usage.en.md) |
+| [TierSense-Memory-Decide](docs/memory-decide/README.md) | Should history be compressed or recalled now? | Two decisions and their confidence values | [Memory decisions](docs/memory-decide/usage.en.md) |
 
-These modules provide decision signals. Your application switches models, generates summaries, and retrieves memories. See each project's documentation for its complete contract and latest capabilities.
+These modules provide decision signals. Your application switches models, generates summaries, and retrieves memories. See each module's documentation for its complete contract and latest capabilities.
 
 ## Choose a module
 
@@ -48,7 +48,7 @@ These modules provide decision signals. Your application switches models, genera
 
 ## Quick start
 
-Get an API key from the [TierSense platform](https://tierflow.cn/tiersense). These endpoints follow the current child-project documentation; creating this hub does not change them.
+Get an API key from the [TierSense platform](https://tierflow.cn/tiersense). These endpoints follow the current module documentation; creating this hub does not change them.
 
 | Capability | POST endpoint |
 | --- | --- |
@@ -60,7 +60,7 @@ Get an API key from the [TierSense platform](https://tierflow.cn/tiersense). The
 
 ## Paper
 
-[Memory Control Signals Emerge Before Action in Long Horizon Agents](https://github.com/wangmingxuan666/Tiersense-memory-decide/blob/main/paper/Memory_Control.pdf)
+[Memory Control Signals Emerge Before Action in Long Horizon Agents](papers/Memory_Control.pdf)
 
 Read or download the full author-provided PDF (35 pages). The research system described in the paper and the hosted decision API have different scopes; see the usage guide for the API contract.
 
@@ -70,7 +70,11 @@ Read or download the full author-provided PDF (35 pages). The research system de
 - [Agent integration](docs/agent-integration.en.md): invocation points, application responsibilities, and limitations.
 - [Authors' statements](AUTHORS_STATEMENT.en.md): centralized statements and research timeline material.
 
-This is a documentation and navigation hub, not a merged inference service. It does not include model weights, production configuration, or a new unified SDK. The original repositories and their histories remain independent. Read the Memory Control paper using the link above.
+This repository is the single maintained home for documentation, integration examples, and paper links across all three modules. Please direct future updates, Issues, and Stars here. The old repositories retain migration notices, historical files, and commit history. Model weights, production configuration, and self-hosted inference server code are not included.
+
+- [Request examples](examples/README.md): select Score, Compress, or Memory-Decide from one command.
+- [Report an issue](https://github.com/wangmingxuan666/Tiersense/issues): the shared issue tracker.
+- [Migration notes](MIGRATION.md): old repositories and new module directories.
 
 ## Join the community
 
