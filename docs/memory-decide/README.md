@@ -9,7 +9,8 @@
 
 <p align="center">
   <a href="https://tierflow.cn/tiersense"><img src="https://img.shields.io/badge/API-TierSense-6856E8" alt="TierSense API"></a>
-  <a href="../../papers/Memory_Control.pdf"><img src="https://img.shields.io/badge/Paper-Memory_Control-b31b1b" alt="Memory Control PDF"></a>
+  <a href="https://arxiv.org/abs/2609.27286"><img src="https://img.shields.io/badge/arXiv-2609.27286-b31b1b" alt="arXiv 2609.27286"></a>
+  <a href="https://arxiv.org/pdf/2609.27286"><img src="https://img.shields.io/badge/Paper-Memory_Control-b31b1b" alt="Memory Control PDF"></a>
   <a href="usage.en.md"><img src="https://img.shields.io/badge/Docs-Usage_Guide-0969da" alt="Usage guide"></a>
 </p>
 
@@ -108,7 +109,7 @@ For per-step compression recommendations and history-span selection, see [TierSe
 
 ## Paper
 
-[Memory Control Signals Emerge Before Action in Long Horizon Agents](../../papers/Memory_Control.pdf)
+[Memory Control Signals Emerge Before Action in Long Horizon Agents](https://arxiv.org/pdf/2609.27286)
 
 Read or download the full author-provided PDF (35 pages). The research system described in the paper and the hosted decision API have different scopes; see the usage guide for the API contract.
 

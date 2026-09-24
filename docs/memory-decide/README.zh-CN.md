@@ -9,7 +9,8 @@
 
 <p align="center">
   <a href="https://tierflow.cn/tiersense"><img src="https://img.shields.io/badge/API-TierSense-6856E8" alt="TierSense API"></a>
-  <a href="../../papers/Memory_Control.pdf"><img src="https://img.shields.io/badge/Paper-Memory_Control-b31b1b" alt="Memory Control PDF"></a>
+  <a href="https://arxiv.org/abs/2609.27286"><img src="https://img.shields.io/badge/arXiv-2609.27286-b31b1b" alt="arXiv 2609.27286"></a>
+  <a href="https://arxiv.org/pdf/2609.27286"><img src="https://img.shields.io/badge/Paper-Memory_Control-b31b1b" alt="Memory Control PDF"></a>
   <a href="usage.md"><img src="https://img.shields.io/badge/Docs-Usage_Guide-0969da" alt="使用指南"></a>
 </p>
 
@@ -108,7 +109,7 @@ curl "https://tierflow.cn/tiersense/v1/memory/decide" \
 
 ## 论文
 
-[Memory Control Signals Emerge Before Action in Long Horizon Agents](../../papers/Memory_Control.pdf)
+[Memory Control Signals Emerge Before Action in Long Horizon Agents](https://arxiv.org/pdf/2609.27286)
 
 阅读或下载作者提供的完整 PDF（35 页）。论文研究系统与本仓库的托管判断 API 并非同一公开范围；API 的功能边界以使用指南为准。
 
