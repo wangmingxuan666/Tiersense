@@ -7,6 +7,7 @@
 <p align="center">
 <a href="https://tierflow.cn/tiersense"><img src="https://img.shields.io/badge/API-TierSense-6856E8" alt="TierSense API"></a>
   <a href="papers/Memory_Control.pdf"><img src="https://img.shields.io/badge/Paper-Memory_Control-b31b1b" alt="Memory Control PDF"></a>
+  <a href="papers/StateComp.pdf"><img src="https://img.shields.io/badge/Paper-StateComp-b31b1b" alt="StateComp PDF"></a>
 <a href="AUTHORS_STATEMENT.md"><img src="https://img.shields.io/badge/Authors-Statement-0969da" alt="Authors' statement"></a>
 </p>
 
@@ -62,7 +63,9 @@
 
 [Memory Control Signals Emerge Before Action in Long Horizon Agents](papers/Memory_Control.pdf)
 
-阅读或下载作者提供的完整 PDF（35 页）。论文研究系统与本仓库的托管判断 API 并非同一公开范围；API 的功能边界以使用指南为准。
+[StateComp: Learning When to Compress History in Long Horizon Agents](papers/StateComp.pdf)
+
+阅读或下载作者提供的完整 PDF：Memory Control（35 页）、StateComp（33 页）。论文研究系统与本仓库的托管 API 并非同一公开范围；API 的功能边界以使用指南为准。
 
 ## 文档导航
 

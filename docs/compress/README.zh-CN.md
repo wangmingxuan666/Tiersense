@@ -9,6 +9,7 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/2609.27298"><img src="https://img.shields.io/badge/arXiv-2609.27298-b31b1b" alt="arXiv 2609.27298"></a>
+  <a href="../../papers/StateComp.pdf"><img src="https://img.shields.io/badge/Paper-StateComp-b31b1b" alt="StateComp PDF"></a>
   <a href="https://tierflow.cn/tiersense"><img src="https://img.shields.io/badge/API-TierSense-6856E8" alt="TierSense API"></a>
   <a href="usage.md"><img src="https://img.shields.io/badge/Docs-Usage_Guide-0969da" alt="使用指南"></a>
 </p>
@@ -18,7 +19,7 @@
   <a href="#功能介绍">功能介绍</a> ·
   <a href="method.md">方法说明</a> ·
   <a href="usage.md">Agent 接入</a> ·
-  <a href="https://arxiv.org/pdf/2609.27298">论文 PDF</a> ·
+  <a href="../../papers/StateComp.pdf">论文 PDF</a> ·
   <a href="#欢迎进群交流">交流社区</a>
 </p>
 

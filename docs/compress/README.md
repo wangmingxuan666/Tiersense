@@ -9,6 +9,7 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/2609.27298"><img src="https://img.shields.io/badge/arXiv-2609.27298-b31b1b" alt="arXiv 2609.27298"></a>
+  <a href="../../papers/StateComp.pdf"><img src="https://img.shields.io/badge/Paper-StateComp-b31b1b" alt="StateComp PDF"></a>
   <a href="https://tierflow.cn/tiersense"><img src="https://img.shields.io/badge/API-TierSense-6856E8" alt="TierSense API"></a>
   <a href="usage.en.md"><img src="https://img.shields.io/badge/Docs-Usage_Guide-0969da" alt="Usage guide"></a>
 </p>
@@ -18,7 +19,7 @@
   <a href="#features">Features</a> ·
   <a href="method.en.md">Method</a> ·
   <a href="usage.en.md">Agent Integration</a> ·
-  <a href="https://arxiv.org/pdf/2609.27298">Paper PDF</a> ·
+  <a href="../../papers/StateComp.pdf">Paper PDF</a> ·
   <a href="#join-the-community">Community</a>
 </p>
 

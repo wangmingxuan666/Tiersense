@@ -7,6 +7,7 @@
 <p align="center">
 <a href="https://tierflow.cn/tiersense"><img src="https://img.shields.io/badge/API-TierSense-6856E8" alt="TierSense API"></a>
   <a href="papers/Memory_Control.pdf"><img src="https://img.shields.io/badge/Paper-Memory_Control-b31b1b" alt="Memory Control PDF"></a>
+  <a href="papers/StateComp.pdf"><img src="https://img.shields.io/badge/Paper-StateComp-b31b1b" alt="StateComp PDF"></a>
 <a href="AUTHORS_STATEMENT.en.md"><img src="https://img.shields.io/badge/Authors-Statement-0969da" alt="Authors' statement"></a>
 </p>
 
@@ -62,7 +63,9 @@ Get an API key from the [TierSense platform](https://tierflow.cn/tiersense). The
 
 [Memory Control Signals Emerge Before Action in Long Horizon Agents](papers/Memory_Control.pdf)
 
-Read or download the full author-provided PDF (35 pages). The research system described in the paper and the hosted decision API have different scopes; see the usage guide for the API contract.
+[StateComp: Learning When to Compress History in Long Horizon Agents](papers/StateComp.pdf)
+
+Read or download the full author-provided PDFs: Memory Control (35 pages) and StateComp (33 pages). Research systems and hosted APIs have different scopes; see the usage guides for the API contracts.
 
 ## Documentation
 
