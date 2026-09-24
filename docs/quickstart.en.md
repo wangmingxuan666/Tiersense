@@ -36,7 +36,7 @@ Read should_compress, confidence, and message_indices in steps. Configure option
 ## 3. TierSense-Memory-Decide
 
 ```bash
-curl 'https://demo.tierflow.cn:1443/tiersense/v1/memory/decide' \
+curl 'https://tierflow.cn/tiersense/v1/memory/decide' \
   -H 'Authorization: Bearer YOUR_API_KEY' \
   -H 'Content-Type: application/json' \
   -d '{

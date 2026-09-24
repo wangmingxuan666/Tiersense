@@ -53,7 +53,7 @@
 | --- | --- |
 | 难度打分 | `https://tierflow.cn/tiersense/v1/score` |
 | 历史压缩选择 | `https://tierflow.cn/tiersense/v1/compress` |
-| 压缩／召回判断 | `https://demo.tierflow.cn:1443/tiersense/v1/memory/decide` |
+| 压缩／召回判断 | `https://tierflow.cn/tiersense/v1/memory/decide` |
 
 [查看三个接口的最小调用示例](docs/quickstart.md)。参数和返回结构不同，不能把某一个接口的字段直接用于另一个。
 

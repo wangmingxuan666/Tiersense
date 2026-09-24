@@ -53,7 +53,7 @@ Get an API key from the [TierSense platform](https://tierflow.cn/tiersense). The
 | --- | --- |
 | Difficulty scoring | `https://tierflow.cn/tiersense/v1/score` |
 | History compression selection | `https://tierflow.cn/tiersense/v1/compress` |
-| Compression / recall decisions | `https://demo.tierflow.cn:1443/tiersense/v1/memory/decide` |
+| Compression / recall decisions | `https://tierflow.cn/tiersense/v1/memory/decide` |
 
 [Minimal request examples for all three APIs](docs/quickstart.en.md). Request and response contracts differ; fields are not interchangeable.
 
